@@ -26,8 +26,8 @@ i{
 nav {
   position: fixed;
   top: 0;
-  left: 2em;
-  right: 2em;
+  left: 0em;
+  right: 0em;
   padding: var(--font-size-l) 0;
   border-bottom: 1px solid var(--charcoal-light);
   box-sizing: border-box;
@@ -65,6 +65,21 @@ h1 {
 p {
     margin-bottom: 20px;
 }
+
+
+
+.landingpage {
+  font-size: 12em;
+  word-wrap: normal;
+  position: relative;
+  width:100%;
+line-height: 0.9em;
+margin-top: 3%;
+
+}
+
+
+/*modal code*/
 .btn {
     background: #428bca;
     border: #357ebd solid 1px;
@@ -100,6 +115,9 @@ p {
 }
 .modal:target:before {
     display: none;
+}
+.model:target::after{
+  display: none;
 }
 .modal:before {
     content:"";
@@ -152,6 +170,11 @@ p {
     border-top: #eeeeee solid 1px;
     text-align: right;
 }
+
+
+
+
+
 
 
 
