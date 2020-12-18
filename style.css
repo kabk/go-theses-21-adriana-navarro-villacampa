@@ -283,44 +283,7 @@ p {
 }
 
 /*menu code*/
-.sidenav {
-  height: 100%;
-  width: 0;
-  position: sticky;
-  z-index: 100;
-  top: 0;
-  left: 0;
-  background-color: #111;
-  overflow-x: hidden;
-  transition: 0.5s;
-  padding-top: 60px;
-}
 
-.sidenav a {
-  padding: 8px 8px 8px 32px;
-  text-decoration: none;
-  font-size: 25px;
-  color: red;
-  display: block;
-  transition: 0.3s;
-}
-
-.sidenav a:hover {
-  color: red;
-}
-
-.sidenav .closebtn {
-  position: absolute;
-  top: 0;
-  right: 25px;
-  font-size: 36px;
-  margin-left: 50px;
-}
-
-@media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
-}
 
 
 
@@ -368,7 +331,7 @@ article {
   margin-top: 4.5em;
   margin-bottom: 5em;
   margin-right: 3.2em;
-  float: left;
+  float: right;
   padding: 8px;
   width: 35%;
   /* background-color: #f1f1f1; */
