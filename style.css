@@ -3,146 +3,48 @@ body {
   /*ACTIVATE THIS ^^^ TO STOP SCROLLING*/
   /* font-family: 'Merriweather', serif; */
   font-family: 'Poppins', sans-serif;
-  color: blue;
-}
-
-/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
-/* For mobile phones: */
-[class*="col-"] {
-  width: 100%;
-}
-
-@media only screen and (min-width: 600px) {
-
-  /* For tablets: */
-  .col-s-1 {
-    width: 8.33%;
-  }
-
-  .col-s-2 {
-    width: 16.66%;
-  }
-
-  .col-s-3 {
-    width: 25%;
-  }
-
-  .col-s-4 {
-    width: 33.33%;
-  }
-
-  .col-s-5 {
-    width: 41.66%;
-  }
-
-  .col-s-6 {
-    width: 50%;
-  }
-
-  .col-s-7 {
-    width: 58.33%;
-  }
-
-  .col-s-8 {
-    width: 66.66%;
-  }
-
-  .col-s-9 {
-    width: 75%;
-  }
-
-  .col-s-10 {
-    width: 83.33%;
-  }
-
-  .col-s-11 {
-    width: 91.66%;
-  }
-
-  .col-s-12 {
-    width: 100%;
-  }
-}
-
-@media only screen and (min-width: 768px) {
-
-  /* For desktop: */
-  .col-1 {
-    width: 8.33%;
-  }
-
-  .col-2 {
-    width: 16.66%;
-  }
-
-  .col-3 {
-    width: 25%;
-  }
-
-  .col-4 {
-    width: 33.33%;
-  }
-
-  .col-5 {
-    width: 41.66%;
-  }
-
-  .col-6 {
-    width: 50%;
-  }
-
-  .col-7 {
-    width: 58.33%;
-  }
-
-  .col-8 {
-    width: 66.66%;
-  }
-
-  .col-9 {
-    width: 75%;
-  }
-
-  .col-10 {
-    width: 83.33%;
-  }
-
-  .col-11 {
-    width: 91.66%;
-  }
-
-  .col-12 {
-    width: 100%;
-  }
+  color: black;
+  background-color: pink;
 }
 
 p {
-  font-size: 14px;
+  /* font-size: 12px; */
 }
 
 .topmenu {
   top: 0em;
-  height: 5em;
+  height: 10%;
   width: 100%;
   position: sticky;
-  background-color: red;
+  background-color: white;
   overflow-x: scroll;
   overflow-y: hidden;
-    white-space: normal;
+  white-space: normal;
+  direction: ltr;
+  display: inline-flex;
+}
 
+.dot {
+  top: 0em;
+  height: 7em;
+  width: 7em;
+  background-color: black;
+  border-radius: 50%;
+    margin: 0.4em;
+  -webkit-flex: 0 0 auto;
+  text-align: center;
 }
 
 
-.dot {
-  top:0em;
-  height: 4.5em;
-  width: 4.5em;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  margin:0.1em;
-      -webkit-flex: 0 0 auto;
 
+.dottext {
+  font-size: 2em;
+  padding: 0;
+  margin: 0;
+  color: white;
+  text-align: center;
+-ms-transform: translateY(60%);
+transform: translateY(60%);
 }
 
 ::-webkit-scrollbar {
@@ -152,11 +54,57 @@ p {
 /* Track */
 ::-webkit-scrollbar-track {
   background: yellow;
-  border-radius: 10px;
+  border-radius: 2em;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
   background: blue;
-  border-radius: 10px;
+  border-radius: 5px;
+}
+
+/* On screens that are 992px or less, set the background color to blue */
+@media screen and (max-width: 992px) {
+  body {
+    background-color: tan;
+  }
+  ::-webkit-scrollbar {
+    display: none;
+  }
+
+}
+
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 600px) {
+  body {
+    background-color: olive;
+  }
+
+  .dot {
+    top: 0em;
+    height: 5em;
+    width: 5em;
+    background-color: black;
+    border-radius: 50%;
+    margin: 0.2em;
+  }
+
+  .dottext {
+    font-size: 2em;
+    color: white;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+  -ms-transform: translateY(40%);
+  transform: translateY(40%);
+  }
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+p {
+  font-size: 20px;
+}
+
 }
