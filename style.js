@@ -15,4 +15,12 @@ function myFunction3() {
   document.getElementById("credits").style.zIndex = "1";
   document.getElementById("thesis").style.zIndex = "-1";
   document.getElementById("landing").style.zIndex = "-2";
-}
+};
+
+
+
+
+
+function PopUp(){
+    document.getElementById('ac-wrapper').style.display="none";
+};
