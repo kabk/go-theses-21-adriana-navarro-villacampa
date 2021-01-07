@@ -5,7 +5,9 @@ body {
   font-family: 'Poppins', sans-serif;
   color: black;
   background-color: pink;
-
+  margin-left: 0.5em;
+    margin-right: 0.5em;
+    
 }
 
 
@@ -20,11 +22,19 @@ h1 {
 }
 
 p {
-  /* font-size: 12px; */
+  font-size: 1em;
+}
+
+a{
+  color: inherit;
 }
 
 .topmenu {
   top: 0em;
+  left:0em;
+  right: 0em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
   height: 10%;
   width: 100%;
   position: sticky;
@@ -45,10 +55,11 @@ p {
   height: 5%;
   width: 100%;
   position: fixed;
-  background-color: rgb(101, 189, 214);
+  background-color: black;
   white-space: normal;
   direction: ltr;
   display: inline-flex;
+  color: white;
   font-family: "Stravinsky TRIAL";
   z-index: 2;
 }
@@ -123,19 +134,22 @@ p {
 
 #landing {
   height: 100%;
-  width: 100%;
+  width: auto;
   position: fixed;
-  background-color: white;
+  background-color: black;
+  color: white;
   z-index: 2;
-
+  padding: 1em;
+  word-wrap: break-word;
 }
 
 #thesis {
-  height: 100%;
-  width: inherit;
+  height: inherit;
+  width: 100%;
 position: absolute;
   background-color: white;
 margin-bottom: 30%;
+  word-wrap: break-word;
 
 }
 
@@ -189,6 +203,6 @@ position: absolute;
   }
 
   p {
-    font-size: 20px;
+    font-size: 1.1em;
   }
 }

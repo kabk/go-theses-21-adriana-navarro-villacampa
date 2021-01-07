@@ -1,5 +1,5 @@
 function myFunction1() {
-  document.getElementById("landing").style.zIndex = "1";
+  document.getElementById("landing").style.zIndex = "2";
   document.getElementById("thesis").style.zIndex = "-1";
   document.getElementById("credits").style.zIndex = "-2";
 }
