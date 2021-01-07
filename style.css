@@ -7,7 +7,7 @@ body {
   background-color: pink;
   margin-left: 0.5em;
     margin-right: 0.5em;
-    
+overflow-x: hidden;
 }
 
 
@@ -45,7 +45,7 @@ a{
   direction: ltr;
   display: inline-flex;
   font-family: "Stravinsky TRIAL";
-    z-index: 1;
+    z-index: 2;
 
 }
 
@@ -61,7 +61,7 @@ a{
   display: inline-flex;
   color: white;
   font-family: "Stravinsky TRIAL";
-  z-index: 2;
+  z-index: 3;
 }
 
 .home {
@@ -134,11 +134,13 @@ a{
 
 #landing {
   height: 100%;
-  width: auto;
+  width: 100%;
   position: fixed;
   background-color: black;
   color: white;
-  z-index: 2;
+  z-index: 3;
+  left: 0;
+  top:0;
   padding: 1em;
   word-wrap: break-word;
 }
@@ -146,9 +148,14 @@ a{
 #thesis {
   height: inherit;
   width: 100%;
+    left: 0;
+    right:0;
+    top:0;
+    padding: 1em;
+    padding-top: 10%;
+    padding-bottom: 10%;
 position: absolute;
   background-color: white;
-margin-bottom: 30%;
   word-wrap: break-word;
 
 }
