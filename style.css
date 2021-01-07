@@ -7,6 +7,15 @@ body {
   background-color: pink;
 }
 
+@font-face {
+  font-family: "Stravinsky TRIAL";
+  src: url(./fonts/TRIAL-Stravinsky-Bold.otf);
+}
+
+h1 {
+  font-family: "Stravinsky TRIAL";
+}
+
 p {
   /* font-size: 12px; */
 }
@@ -22,6 +31,53 @@ p {
   white-space: normal;
   direction: ltr;
   display: inline-flex;
+  font-family: "Stravinsky TRIAL";
+    z-index: 1;
+}
+
+.bottommenu {
+  bottom: 0em;
+  left: 0em;
+  height: 5%;
+  width: 100%;
+  position: fixed;
+  background-color: rgb(101, 189, 214);
+  white-space: normal;
+  direction: ltr;
+  display: inline-flex;
+  font-family: "Stravinsky TRIAL";
+  z-index: 2;
+}
+
+.home {
+
+  width: auto;
+  height: auto;
+    float: left;
+    padding: 0.3em;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.thesisbutton {
+  right: 1em;
+  width: auto;
+  height: auto;
+  float: center;
+  padding: 0.3em;
+  padding-left: 4em;
+  padding-right: 3em;
+  right:0em;
+}
+
+.creditsbutton {
+  right: 1em;
+  width: auto;
+  height: auto;
+    float: right;
+      padding: 0.3em;
+      padding-left: 2em;
+      padding-right: 2em;
 }
 
 .dot {
@@ -30,21 +86,19 @@ p {
   width: 7em;
   background-color: black;
   border-radius: 50%;
-    margin: 0.4em;
+  margin: 0.4em;
   -webkit-flex: 0 0 auto;
   text-align: center;
 }
 
-
-
 .dottext {
-  font-size: 2em;
+  font-size: 4em;
   padding: 0;
   margin: 0;
   color: white;
   text-align: center;
--ms-transform: translateY(60%);
-transform: translateY(60%);
+  -ms-transform: translateY(15%);
+  transform: translateY(15%);
 }
 
 ::-webkit-scrollbar {
@@ -63,21 +117,46 @@ transform: translateY(60%);
   border-radius: 5px;
 }
 
+#landing {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background-color: white;
+}
+
+#thesis {
+  height: 100%;
+  width: 100%;
+position: absolute;
+  background-color: white;
+margin-bottom: 30%;
+
+}
+
+#credits {
+  height: 100%;
+  width: 100%;
+position: absolute;
+  background-color: white;
+
+}
+
+
 /* On screens that are 992px or less, set the background color to blue */
 @media screen and (max-width: 992px) {
   body {
     background-color: tan;
   }
+
   ::-webkit-scrollbar {
     display: none;
   }
-
 }
 
 /* On screens that are 600px or less, set the background color to olive */
 @media screen and (max-width: 600px) {
   body {
-    background-color: olive;
+    background-color: white;
   }
 
   .dot {
@@ -90,21 +169,20 @@ transform: translateY(60%);
   }
 
   .dottext {
-    font-size: 2em;
+    font-size: 3em;
     color: white;
     padding: 0;
     margin: 0;
     text-align: center;
-  -ms-transform: translateY(40%);
-  transform: translateY(40%);
+    -ms-transform: translateY(10%);
+    transform: translateY(10%);
   }
 
-::-webkit-scrollbar {
-  display: none;
-}
+  ::-webkit-scrollbar {
+    display: none;
+  }
 
-p {
-  font-size: 20px;
-}
-
+  p {
+    font-size: 20px;
+  }
 }
