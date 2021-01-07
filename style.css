@@ -204,7 +204,15 @@ position: absolute;
 #credits {
   height: 100vh;
   width: 100vw;
-position: absolute;
+position: fixed;
+left: 0;
+right:0;
+top:0;
+padding-top: 10%;
+padding-bottom: 10%;
+left: 0;
+top:0;
+padding: 3em;
   background-color: white;
 
 }
