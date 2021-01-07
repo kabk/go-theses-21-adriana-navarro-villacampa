@@ -5,7 +5,10 @@ body {
   font-family: 'Poppins', sans-serif;
   color: black;
   background-color: pink;
+
 }
+
+
 
 @font-face {
   font-family: "Stravinsky TRIAL";
@@ -33,6 +36,7 @@ p {
   display: inline-flex;
   font-family: "Stravinsky TRIAL";
     z-index: 1;
+
 }
 
 .bottommenu {
@@ -120,13 +124,15 @@ p {
 #landing {
   height: 100%;
   width: 100%;
-  position: absolute;
+  position: fixed;
   background-color: white;
+  z-index: 2;
+
 }
 
 #thesis {
   height: 100%;
-  width: 100%;
+  width: inherit;
 position: absolute;
   background-color: white;
 margin-bottom: 30%;
