@@ -4,6 +4,6 @@ function PopUp(){
 
 
 function myFunction() {
-  var popup = document.event.target;
+  var popup = document.getElementByClass("myPopup");
   popup.classList.toggle("show");
 };

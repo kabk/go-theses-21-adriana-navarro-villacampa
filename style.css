@@ -31,6 +31,12 @@ a{
 }
 
 
+img {
+  width: 100%;
+  height: auto;
+}
+
+
 #ac-wrapper {
     position: fixed;
     top: 0;
