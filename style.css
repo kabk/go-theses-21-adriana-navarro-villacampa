@@ -182,8 +182,6 @@ bottom: 0;
   background-color: black;
   color: white;
   z-index: 3;
-  left: 0;
-  top:0;
   padding: 3em;
   word-wrap: break-word;
 }
