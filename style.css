@@ -59,7 +59,7 @@ a{
   padding: 0;
   left:0;
   width: 100%;
-  height: auto;
+  height: 90vh;
   overflow-x: hidden;
   overflow-y: scroll;
 }
@@ -69,6 +69,7 @@ a{
   /* top: 2em; */
   left:0em;
   right: 0em;
+
   padding-top: 1em;
   padding-left: 0.5em;
   padding-right: 0.5em;
@@ -195,9 +196,9 @@ bottom: 0;
   width: 90%;
     left: 0;
     /* right:0; */
-    top:0;
+    top:1em;
     padding-left: 1em;
-    padding-top: 2vh;
+
     padding-bottom: 10vh;
 /* position: absolute; */
   background-color: white;
