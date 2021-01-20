@@ -3,8 +3,8 @@ body {
   /*ACTIVATE THIS ^^^ TO STOP SCROLLING*/
   /* font-family: 'Merriweather', serif; */
   font-family: 'Poppins', sans-serif;
-  color: black;
-  background-color: pink;
+
+
   margin:0;
 overflow: hidden;
 }
@@ -26,6 +26,7 @@ p {
 
 a{
   color: inherit;
+  style: none;
 
 }
 
@@ -44,7 +45,7 @@ a{
     width: 80vw;
     height: 50vh;
     background: #FFFFFF;
-    border: 5px solid #000;
+    border: 5px solid rgb(178, 119, 244);
     border-radius: 25px;
     -moz-border-radius: 25px;
     -webkit-border-radius: 25px;
@@ -55,21 +56,13 @@ a{
     top: 30vh; left: 5vh;
 }
 
-.wrapper {
-  padding: 0;
-  left:0;
-  width: 100%;
-  height: 90vh;
-  overflow-x: hidden;
-  overflow-y: scroll;
-}
+
 
 
 .topmenu {
   /* top: 2em; */
   left:0em;
   right: 0em;
-
   padding-top: 1em;
   padding-left: 0.5em;
   padding-right: 0.5em;
@@ -95,11 +88,11 @@ bottom: 0;
   height: 5%;
   width: 100%;
   position: fixed;
-  background-color: black;
+  background-color:black;
+  color: white;
   white-space: normal;
   direction: ltr;
   display: inline-flex;
-  color: white;
   font-family: "Stravinsky TRIAL";
   z-index: 3;
   overflow: hidden;
@@ -151,7 +144,7 @@ bottom: 0;
   font-size: 4em;
   padding: 0;
   margin: 0;
-  color: white;
+color: white;
   text-align: center;
   -ms-transform: translateY(15%);
   transform: translateY(15%);
@@ -163,13 +156,13 @@ bottom: 0;
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: yellow;
+  background: white;
   border-radius: 2em;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: blue;
+  background: #D42F2F;
   border-radius: 5px;
 }
 
@@ -183,13 +176,23 @@ bottom: 0;
   padding-top: 10%;
   padding-bottom: 10%;
   /* position: fixed; */
-  background-color: black;
-  color: white;
+background-color: black;
+color: #D42F2F;
   /* z-index: 3; */
   padding: 2em;
   word-wrap: break-word;
 }
 
+.wrapper {
+  padding: 0;
+  left:0;
+  width: 100%;
+  height: 90vh;
+  overflow-x: hidden;
+  overflow-y: scroll;
+color: black;
+  background-color: white;
+}
 
 #thesis {
   height: auto;
@@ -201,7 +204,7 @@ bottom: 0;
 
     padding-bottom: 10vh;
 /* position: absolute; */
-  background-color: white;
+
   word-wrap: break-word;
 
 }
@@ -218,15 +221,101 @@ padding-bottom: 10%;
 left: 0;
 top:0;
 padding: 3em;
-  background-color: white;
+color: white;
+  background-color: black;
 
 }
+
+.sup{
+  font-family: 'Stravinsky TRIAL';
+  color:#D42F2F;
+}
+
+.popuptext {
+  width: 10vw;
+     word-wrap: break-word;
+  z-index: 9;
+  margin-left: 30%;
+  /* margin-right: 20%; */
+}
+
+.close {
+  color: #D42F2F;
+  float: right;
+  font-size: 28px;
+  position: absolute;
+  top: 0.5vh;
+  left: 90%;
+  /* font-weight: bold; */
+}
+
+.close:hover,
+.close:focus {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.sup .popuptext {
+     word-wrap: break-word;
+  font-family: 'Poppins';
+  visibility: hidden;
+  background-color: black;
+  color:white;
+  text-align: left;
+  width: 15em;
+  padding: 1em;
+  height: auto;
+  display: block;
+  position: absolute;
+
+}
+
+/* Popup arrow */
+.sup .popuptext::after {
+  content: "";
+  /* margin-left: auto;
+  margin-right: auto; */
+  width: 10em;
+  height: auto;
+  display: flex;
+}
+
+/* Toggle this class - hide and show the popup */
+.sup .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+
 
 
 /* On screens that are 992px or less, set the background color to blue */
 @media screen and (max-width: 992px) {
   body {
-    background-color: tan;
+
   }
 
   ::-webkit-scrollbar {
@@ -237,21 +326,21 @@ padding: 3em;
 /* On screens that are 600px or less, set the background color to olive */
 @media screen and (max-width: 600px) {
   body {
-    background-color: white;
+
   }
 
   .dot {
     top: 0em;
     height: 5em;
     width: 5em;
-    background-color: black;
+
     border-radius: 50%;
     margin: 0.2em;
   }
 
   .dottext {
     font-size: 3em;
-    color: white;
+
     padding: 0;
     margin: 0;
     text-align: center;

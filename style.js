@@ -23,3 +23,9 @@
 function PopUp(){
     document.getElementById('ac-wrapper').style.display="none";
 };
+
+
+function myFunction() {
+  var popup = document.getElementById("myPopup");
+  popup.classList.toggle("show");
+};
