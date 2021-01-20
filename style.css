@@ -5,9 +5,8 @@ body {
   font-family: 'Poppins', sans-serif;
   color: black;
   background-color: pink;
-  margin-left: 0.5em;
-    margin-right: 0.5em;
-overflow-x: hidden;
+  margin:0;
+overflow: hidden;
 }
 
 
@@ -27,6 +26,7 @@ p {
 
 a{
   color: inherit;
+
 }
 
 
@@ -57,22 +57,25 @@ a{
 
 .wrapper {
   padding: 0;
-  width: 100vw;
+  left:0;
+  width: 100%;
   height: auto;
+  overflow-x: hidden;
+  overflow-y: scroll;
 }
 
 
 .topmenu {
-  top: 0em;
+  /* top: 2em; */
   left:0em;
   right: 0em;
+  padding-top: 1em;
   padding-left: 0.5em;
   padding-right: 0.5em;
   height: 10%;
   width: 100%;
-  /* position: sticky; */
-
-    position: sticky;
+  position: -webkit-sticky;
+  position: sticky;
   background-color: white;
   overflow-x: scroll;
   overflow-y: hidden;
@@ -170,7 +173,7 @@ bottom: 0;
 }
 
 #landing {
-  height: 90%;
+  height: 100vh;
   width: auto;
   left: 0;
   right:0;
@@ -182,18 +185,19 @@ bottom: 0;
   background-color: black;
   color: white;
   /* z-index: 3; */
-  padding: 3em;
+  padding: 2em;
   word-wrap: break-word;
 }
 
+
 #thesis {
   height: auto;
-  width: 100vw;
+  width: 90%;
     left: 0;
-    right:0;
+    /* right:0; */
     top:0;
-    padding: 1em;
-    padding-top: 10vh;
+    padding-left: 1em;
+    padding-top: 2vh;
     padding-bottom: 10vh;
 /* position: absolute; */
   background-color: white;
