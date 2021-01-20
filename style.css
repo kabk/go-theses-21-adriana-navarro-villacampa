@@ -36,6 +36,10 @@ img {
   height: auto;
 }
 
+figcaption{
+  color: #D42F2F;
+  font-size: 0.9em;
+}
 
 #ac-wrapper {
     position: fixed;
@@ -319,10 +323,24 @@ color: white;
 
 
 /* On screens that are 992px or less, set the background color to blue */
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 992px, min-width: 700px;) {
   body {
 
   }
+
+  .wrapper {
+    padding: 0;
+    left:0;
+    width: 60%;
+    height: 90vh;
+    overflow-x: hidden;
+    overflow-y: scroll;
+  color: black;
+    background-color: white;
+  }
+
+
+
 
   ::-webkit-scrollbar {
     display: none;
