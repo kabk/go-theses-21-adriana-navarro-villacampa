@@ -21,11 +21,16 @@
     src: url(./fonts/TRIAL-Stravinsky-Bold.otf);
   }
 
+.landingp {
+  padding-top:0em;
+  width: 40vw;
+}
+
 .landingheader {
   padding-top: 1em;
   animation: text-shadow 5s ease-in-out infinite;
 font-family: "Stravinsky TRIAL";
-    font-size: 10em;
+    font-size: 15vh;
     font-weight: 900;
     line-height: 1;
 }
@@ -451,6 +456,10 @@ color:inherit;
     src: url(./fonts/TRIAL-Stravinsky-Bold.otf);
   }
 
+  .landingp {
+    padding-top:0em;
+    width: 80vw;
+  }
 
   .landingheader {
     padding-top: 2em;
