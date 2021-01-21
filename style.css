@@ -127,6 +127,7 @@ color:inherit;
   #mask {
     position:absolute;
     left:0;
+
     top:10vh;
     z-index:9000;
     background-color:#000;
@@ -134,7 +135,8 @@ color:inherit;
   }
   #boxes .window {
     position:absolute;
-    left:0;
+    left:10vw;
+    right: 10vw;
     top:10em;
     width:70vw;
     height:60vh;
@@ -149,8 +151,11 @@ color:inherit;
     height:auto;
     padding:2em;
     background-color:#ffffff;
-      font-family: 'Poppins';
 
+  }
+
+  #boxes #dialog h2 {
+      font-family: "Stravinsky Trial";
   }
 
   #lorem{
@@ -163,20 +168,18 @@ color:inherit;
   }
   #popupfoot a{
     text-decoration: none;
+    color: inherit;
   }
   .agree:hover{
-    background-color: #D1D1D1;
+    color: #9A2DD6;
   }
   .popupoption:hover{
-    background-color:#D1D1D1;
-    color: green;
+    color: #9A2DD6;
   }
   .popupoption2:hover{
 
-    color: red;
+  color:  #9A2DD6;
   }
-
-
 
 
   .topmenu {
@@ -558,12 +561,13 @@ animation: text-shadow 5s ease-in-out infinite;
 
     figcaption{
       color: #D42F2F;
-      font-size: 0.9em;
+      font-size: 1em;
     }
 
     #mask {
       position:absolute;
       left:0;
+
       top:10vh;
       z-index:9000;
       background-color:#000;
@@ -571,7 +575,8 @@ animation: text-shadow 5s ease-in-out infinite;
     }
     #boxes .window {
       position:absolute;
-      left:0;
+      left:10vw;
+      right: 10vw;
       top:10em;
       width:70vw;
       height:60vh;
@@ -586,31 +591,34 @@ animation: text-shadow 5s ease-in-out infinite;
       height:auto;
       padding:2em;
       background-color:#ffffff;
-      	font-family: 'Poppins';
 
+    }
+
+    #boxes #dialog h2 {
+        font-family: "Stravinsky Trial";
     }
 
     #lorem{
-    	font-family: 'Poppins';
+      font-family: 'Poppins';
       text-align: left;
     }
     #popupfoot{
-      	font-family: 'Poppins';
+        font-family: 'Poppins';
       padding: 1em 2em;
     }
     #popupfoot a{
-    	text-decoration: none;
+      text-decoration: none;
+      color: inherit;
     }
     .agree:hover{
-      background-color: #D1D1D1;
+      color: #9A2DD6;
     }
     .popupoption:hover{
-    	background-color:#D1D1D1;
-    	color: green;
+      color: #9A2DD6;
     }
     .popupoption2:hover{
 
-    	color: red;
+    color:  #9A2DD6;
     }
 
 
@@ -644,6 +652,7 @@ animation: text-shadow 5s ease-in-out infinite;
       left: 0em;
       height: 5%;
       width: 100%;
+      padding-top: 2vh;
       position: fixed;
       background-color:black;
       color: white;
