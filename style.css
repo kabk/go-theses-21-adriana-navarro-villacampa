@@ -189,7 +189,7 @@ color:inherit;
     padding-top: 1em;
     padding-left: 0.5em;
     padding-right: 0.5em;
-    height: 10%;
+    height: 9%;
     width: 100%;
     position: -webkit-sticky;
     position: sticky;
@@ -198,6 +198,7 @@ color:inherit;
     overflow-y: hidden;
     white-space: normal;
     direction: ltr;
+    justify-content: center;
     display: inline-flex;
     font-family: "Stravinsky TRIAL";
       z-index: 2;
@@ -256,9 +257,9 @@ color:inherit;
   }
 
   .dot {
-    top: 0em;
-    height: 7em;
-    width: 7em;
+    top: 10vh;
+    height: 4em;
+    width: 4em;
     background-color: black;
     border-radius: 50%;
     margin: 0.4em;
@@ -267,7 +268,8 @@ color:inherit;
   }
 
   .dottext {
-    font-size: 4em;
+    top: 0;
+    font-size: 2.6em;
     padding: 0;
     margin: 0;
   color: white;
