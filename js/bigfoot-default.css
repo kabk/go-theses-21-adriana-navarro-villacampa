@@ -192,7 +192,7 @@
 .bigfoot-footnote__wrapper {
   position: relative;
   z-index: 14;
-  width: 22em;
+  width: 98%;
   display: inline-block;
   box-sizing: inherit;
   overflow: hidden;
@@ -213,11 +213,12 @@
   -webkit-overflow-scrolling: touch;
   background: #fafafa;
   border-radius: 0.5em;
+  font-size: 1em;
   -webkit-font-smoothing: subpixel-antialiased;
   line-height: normal;
 }
 .bigfoot-footnote__content img {
-  max-width: 100%;
+width: 10%;
 }
 .bigfoot-footnote__content *:last-child {
   margin-bottom: 0 !important;

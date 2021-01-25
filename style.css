@@ -191,17 +191,15 @@ color:inherit;
     padding-right: 0.5em;
     height: 9%;
     width: 100%;
-    position: -webkit-sticky;
-    position: sticky;
     background-color: white;
     overflow-x: scroll;
     overflow-y: hidden;
     white-space: normal;
-    direction: ltr;
     justify-content: center;
     display: inline-flex;
     font-family: "Stravinsky TRIAL";
       z-index: 2;
+            top: 0;
     }
 
 
@@ -224,6 +222,7 @@ color:inherit;
     z-index: 3;
     overflow: hidden;
   }
+
 
   .home {
 
@@ -639,15 +638,14 @@ animation: text-shadow 5s ease-in-out infinite;
       height: 10%;
       width: 100%;
       position: -webkit-sticky;
-      position: sticky;
       background-color: white;
       overflow-x: scroll;
       overflow-y: hidden;
       white-space: normal;
-      direction: ltr;
       display: inline-flex;
       font-family: "Stravinsky TRIAL";
         z-index: 2;
+        top: 0;
       }
 
 
