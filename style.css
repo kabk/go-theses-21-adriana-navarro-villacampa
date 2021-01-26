@@ -189,7 +189,7 @@ color:inherit;
     padding-top: 1em;
     padding-left: 0.5em;
     padding-right: 0.5em;
-    height: 10%;
+    height: auto;
     width: 100%;
           position: fixed;
     background-color: white;
@@ -269,7 +269,7 @@ color:inherit;
 
   .dottext {
     top: 0;
-    font-size: 2.6em;
+    font-size: 2.4em;
     padding: 0;
     margin: 0;
   color: white;
@@ -566,7 +566,7 @@ animation: text-shadow 5s ease-in-out infinite;
 
     figcaption{
       color: #D42F2F;
-      font-size: 1em;
+      font-size: 0.7em;
     }
 
     #mask {
