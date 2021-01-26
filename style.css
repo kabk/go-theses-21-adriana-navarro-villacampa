@@ -291,7 +291,8 @@ color:inherit;
   /* Handle */
   ::-webkit-scrollbar-thumb {
     background: #D42F2F;
-    border-radius: 5px;
+    border-radius: 4px;
+
   }
 
   #landing {
